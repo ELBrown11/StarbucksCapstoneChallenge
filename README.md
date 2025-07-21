@@ -1,7 +1,14 @@
 # Starbucks Capstone - Customer Behavior Analysis | Udacity - Data Science Nanodegree
 ## Overview
 This project utilizes a simulated dataset from the Starbucks Rewards app, comprising three JSON files: `portfolio`, `profile`, and `transcript`. These files are integrated to create a unified dataset for analysis. The portfolio file contains metadata on promotional offers, including offer type, delivery channel, reward threshold, difficulty, and duration. The profile file includes customer demographic information such as age, membership start date, income, and gender. The transcript file logs customer interactions with the app, including events related to offers (e.g., received, viewed, completed) and associated metadata. By joining these datasets, we can analyze user behavior from the Starbucks app to understand which types of promotional offers perform best across different demographic groupings. This is analyzed via rule-based heuristics. The resulting insights can be used to inform both user engagement strategies and targeted marketing efforts.
-
+## Libraries
+- pandas
+- numpy
+- math
+- json
+- matplotlib
+- seaborn
+- gc (garbage collector
 ## Datasets
 The three datasets are provided by Udacity and Starbucks as JSON files. The data was collected during a 30-day test period and was likley derived through distinct methods aligned with their intended purpose and structure:
 - **Portfolio Data:** The data was likely sourced via content management system (CMS). It contain offer meta data (eg. offer type, duration, difficulty) defined by the marketing or product team in charge of the campaign design.  This is static throughout the 30-day test period and was likely ingested prior to the experiment starting. 
