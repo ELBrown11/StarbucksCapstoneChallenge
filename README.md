@@ -46,3 +46,5 @@ The three datasets are provided by Udacity and Starbucks as JSON files. The data
 | `value`     | `dictionary of strings`  | Contains either an offer ID or transaction amount depending on the type of record   |
 
 ## Files
+- [Data Cleaning Notebook](https://github.com/ELBrown11/StarbucksCapstoneChallenge/blob/main/Starbucks_Capstone_notebook_DataPrep.ipynb)
+- [Rule-Based Heuristics and Data Analysis Notebook](https://github.com/ELBrown11/StarbucksCapstoneChallenge/blob/main/Starbucks_Capstone_Heuristics.ipynb)
